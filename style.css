@@ -18,7 +18,7 @@ nav{
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 30px;
+    top: 0px;
     align-items: center;
     text-align: center;
     height: 30vh;
@@ -183,11 +183,11 @@ span{
 }
 .div-img{
     position: relative;
-    left: 150px;
+    left: 120px;
 }
 .div-img>img{
-    width: 500px;
-    height: 1000px;
+    width: 600px;
+    height: 900px;
 }
 /* big button styles */
 .big-button{
@@ -233,7 +233,7 @@ span{
 .box-container{
     display: flex;
     position: relative;
-    left: 160px;
+    left: 120px;
     top: 100px;
     gap: 50px;
 }
