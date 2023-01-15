@@ -326,7 +326,7 @@ span{
 }
 
 /* Small device media query */
-@media only screen and ( max-width:576px) {
+@media only screen and ( max-width:688px) {
     body,html{
         width: 100%;
         height: 100%;
@@ -345,17 +345,17 @@ span{
     }
     .banner-title{
         position: relative;
-        top: -80px;
+        top: -40px;
     }
     .banner-des{
         padding: 300px 0;
         position: relative;
-        bottom: 350px;
+        bottom: 300px;
     }
     .banner-main>button{
         position: relative;
         left: 120px;
-        bottom: 600px;
+        bottom: 550px;
     }
     .banner-main>img{
         position: relative;
@@ -366,27 +366,35 @@ span{
     .team-text-container {
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        position: relative;
+        top: 70px;
     }
     .team{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         position: relative;
         left: 60px; 
-*} 
+} 
      .text{
         position: relative;
         left: 25px;
         width: 100%;
+        top: 20px;
     
 } 
+.text-title{
+    padding: 0 10px;
+    position: relative;
+    top: 20px;
+}
 .text-des{
-    padding: 10px 100px;
+    padding: 10px 70px;
     position: relative;
     left: -80px;
 }
 .card-image-container{
     position: relative;
-    top: 800px;
+    top: 1000px;
     display: grid;
     grid-template-columns: repeat(1,1fr);
 }
@@ -395,15 +403,24 @@ span{
     left: -40px;
     bottom: 50px;
 }
+.card-title{
+    width: 300px;
+}
 .card-des{
     position: relative;
     right: -150px;
-    padding-right: 200px;
+    width: 250px;
+    top: 20px;
 }
 .card{
     position: relative;
     left: -15px;
-    height: 200px;
+    height: 250px;
+    width: 500px;
+    top: 20px;
+}
+.card>h3{
+    padding-right: 150px;
 }
 .card>p{
     padding-right: 200px;
@@ -413,12 +430,13 @@ span{
     position: relative;
     height: 300px;
     width: 380px;
-    right: 100px;
+    right: 120px;
     bottom: 50px;
+    top: 10px;
 }
 .big-button{
     position: relative;
-    top: 700px;
+    top: 950px;
 }
 .big-btn{
     position: relative;
@@ -428,8 +446,11 @@ span{
 }
 .fact-box {
     position: relative;
-    top: 800px;
+    top: 1000px;
     right: 70px;
+}
+.fact-des{
+    padding-right: 150px;
 }
 
 .box-container{
@@ -438,11 +459,11 @@ span{
 }
 .main-box{
     position: relative;
-    right: -50px;
+    right: -10px;
 }
 .spon-container {
     position: relative;
-    top: 1500px;
+    top: 1900px;
 }
 .company{
     position: relative;
@@ -452,7 +473,7 @@ span{
 }
 .main-footer{
     position: relative;
-    top: 1100px;
+    top: 1700px;
     width: 100%;
     height: 90px;
     left: -10px;
