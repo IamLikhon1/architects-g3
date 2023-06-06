@@ -1,1 +1,1 @@
-* Live link: ttps://iamlikhon1.github.io/architects-g3/
+* Live link: https://iamlikhon1.github.io/architects-g3/
